@@ -36,7 +36,8 @@ public class Q1_BinarySearch() {
     public static void main(String[] args) {
         int x = 1000;
         Q1_BinarySearch array = new Q1_BinarySearch(x);
-        System.out.println("result" + array);
+        int result = array.findFloor();
+        System.out.println("result" + result);
 
     }
 
